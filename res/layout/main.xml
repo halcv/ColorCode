@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#000000" >
+  
+    <SeekBar
+		style="@style/SeekBarStyle"
+        android:id="@+id/redBar" />
+
+    <SeekBar
+		style="@style/SeekBarStyle"
+        android:id="@+id/greenBar" />
+
+    <SeekBar
+		style="@style/SeekBarStyle"
+        android:id="@+id/blueBar" />
+
+
+    <TextView
+		style="@style/TextViewStyle"
+        android:id="@+id/colorCodeView"
+		android:text="@string/init_colorcode" />
+
+	<TextView
+		style="@style/ColorViewStyle"
+		android:id="@+id/colorView" />
+
+</LinearLayout>

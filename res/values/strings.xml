@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">ColorCode</string>
+    <string name="init_colorcode">#808080</string>
+    <string name="title_activity_color_code_main">色コード</string>
+
+</resources>
